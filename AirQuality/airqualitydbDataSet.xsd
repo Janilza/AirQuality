@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="airqualitydbDataSet" targetNamespace="http://tempuri.org/airqualitydbDataSet.xsd" xmlns:mstns="http://tempuri.org/airqualitydbDataSet.xsd" xmlns="http://tempuri.org/airqualitydbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="airqualitydbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="airqualitydbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TestSplashScreen.Properties.Settings.GlobalReference.Default.airqualitydbConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="airqualitydbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="airqualitydbDataSet" msprop:Generator_UserDSName="airqualitydbDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="sensorvalue" msprop:Generator_TableClassName="sensorvalueDataTable" msprop:Generator_TableVarName="tablesensorvalue" msprop:Generator_TablePropName="sensorvalue" msprop:Generator_RowDeletingName="sensorvalueRowDeleting" msprop:Generator_RowChangingName="sensorvalueRowChanging" msprop:Generator_RowEvHandlerName="sensorvalueRowChangeEventHandler" msprop:Generator_RowDeletedName="sensorvalueRowDeleted" msprop:Generator_UserTableName="sensorvalue" msprop:Generator_RowChangedName="sensorvalueRowChanged" msprop:Generator_RowEvArgName="sensorvalueRowChangeEvent" msprop:Generator_RowClassName="sensorvalueRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sensorvalue1">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sensorvalue1">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
